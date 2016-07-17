@@ -1,13 +1,8 @@
-# README
-## This is the README for your extension "pageman" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# [Pageman](https://github.com/karyfoundation/pageman) Syntax Highlighter
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+<img width="1095" alt="screen shot 2016-07-18 at 2 05 47 am" src="https://cloud.githubusercontent.com/assets/2157285/16903208/cc97586e-4c8c-11e6-8271-77b8d52d9660.png">
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-** Enjoy!**
+<br />
+<a href="http://www.karyfoundation.org/">
+    <img src="http://www.karyfoundation.org/foundation/logo/github-full-horse.png" width="250"/>
+</a>

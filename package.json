@@ -1,7 +1,7 @@
 {
 	"name": "pageman",
 	"displayName": "Pageman",
-	"description": "Pageman language support for Code",
+	"description": "Pageman language syntax highlighting support for Code",
 	"version": "0.0.1",
 	"publisher": "karyfoundation",
 	"engines": {
@@ -15,12 +15,11 @@
 		"languages": [{
 			"id": "pageman",
 			"aliases": ["Pageman", "pageman"],
-			"extensions": [".pageman",".kfml"],
-			"configuration": "./pageman.configuration.json"
+			"extensions": [".pageman",".kfml"]
 		}],
 		"grammars": [{
 			"language": "pageman",
-			"scopeName": "text.html.pageman",
+			"scopeName": "text.html.markdown.pageman",
 			"path": "./syntaxes/pageman.tmLanguage"
 		}]
 	}

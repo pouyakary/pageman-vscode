@@ -1,0 +1,27 @@
+{
+	"name": "pageman",
+	"displayName": "Pageman",
+	"description": "Pageman language support for Code",
+	"version": "0.0.1",
+	"publisher": "karyfoundation",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "pageman",
+			"aliases": ["Pageman", "pageman"],
+			"extensions": [".pageman",".kfml"],
+			"configuration": "./pageman.configuration.json"
+		}],
+		"grammars": [{
+			"language": "pageman",
+			"scopeName": "text.html.pageman",
+			"path": "./syntaxes/pageman.tmLanguage"
+		}]
+	}
+}

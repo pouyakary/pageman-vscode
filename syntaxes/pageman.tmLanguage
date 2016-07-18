@@ -18,6 +18,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>^\s*(&gt;|-|[0-9]+\.)\s</string>
+			<key>name</key>
+			<string>keyword.numeric.pageman</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>\!?\[(?:[^\]\\]|\\.)*\]\((?:[^\)\\]|\\.)*\)</string>
 			<key>name</key>
 			<string>keyword.control.pageman</string>

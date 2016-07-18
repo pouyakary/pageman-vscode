@@ -11,82 +11,104 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>match</key>
-			<string>`(?:[^`\\]|\\.)*`</string>
+			<key>begin</key>
+			<string>```</string>
+			<key>end</key>
+			<string>```</string>
 			<key>name</key>
-			<string>variable.other.pageman</string>
+			<string>variable.other.muliline-markdown-pre-box.pageman</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^\s*\|</string>
+			<key>end</key>
+			<string>\|\s*$</string>
+			<key>name</key>
+			<string>storage.type.markdown-table.pageman</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string> \&amp;[a-zA-Z0-9]+\;</string>
+			<key>name</key>
+			<string>variable.other.html-special-chars.pageman</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>`(?:[^`\\]|\\.)+`</string>
+			<key>name</key>
+			<string>variable.other.inline-code-block-markdown.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^\s*(&gt;|-|[0-9]+\.)\s</string>
 			<key>name</key>
-			<string>keyword.numeric.pageman</string>
+			<string>keyword.numeric.lists-markdown.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\!?\[(?:[^\]\\]|\\.)*\]\((?:[^\)\\]|\\.)*\)</string>
 			<key>name</key>
-			<string>keyword.control.pageman</string>
+			<string>keyword.control.markdown-image-or-link.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(_\*\*(?:[^(\*\*_)\\]|\\.)*\*\*_|\*\*_(?:[^(_\*\*)\\]|\\.)*_\*\*|\*\*\*(?:[^(\*\*\*)\\]|\\.)*\*\*\*)</string>
 			<key>name</key>
-			<string>markup.italic.bold.pageman</string>
+			<string>markup.italic.bold.bold-and-italic-markdown.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>_(?:[^(_)\\]|\\.)*_</string>
 			<key>name</key>
-			<string>markup.italic.pageman</string>
+			<string>markup.italic.markdown-italic.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\*(?:[^(\*)\\]|\\.)+\*</string>
 			<key>name</key>
-			<string>markup.italic.pageman</string>
+			<string>markup.italic.markdow-italic.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\*\*(?:[^(\*\*)\\]|\\.)+\*\*</string>
 			<key>name</key>
-			<string>markup.bold.pageman</string>
+			<string>markup.bold.makrdown-bold.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>&lt;(?:[^&gt;\\]|\\.)*&gt;</string>
 			<key>name</key>
-			<string>string.pageman</string>
+			<string>string.html-tag.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^\s*//.*$</string>
 			<key>name</key>
-			<string>comment.double-slash.pageman</string>
+			<string>comment.double-slash.c-comments.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\^(?:[^\^\\]|\\.)*\^</string>
 			<key>name</key>
-			<string>storage.type.pageman</string>
+			<string>storage.type.legend.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^\s*#+.*$</string>
 			<key>name</key>
-			<string>string.qouted.pageman</string>
+			<string>string.qouted.markdown-header.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^\s*---.*$</string>
 			<key>name</key>
-			<string>constant.language.pageman</string>
+			<string>constant.language.pageman-parts.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>^[a-zA-Z]+\s*\:(?:[^\:\\]|\\.)*$</string>
 			<key>name</key>
-			<string>constant.language.jekyll.pageman</string>
+			<string>constant.language.jekyll-header.pageman</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

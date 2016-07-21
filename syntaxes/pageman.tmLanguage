@@ -12,6 +12,14 @@
 	<array>
 		<dict>
 			<key>begin</key>
+			<string>&lt;(?:[^&gt;\\]|\\.)*</string>
+			<key>end</key>
+			<string>&gt;</string>
+			<key>name</key>
+			<string>string.html-tag.pageman</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>```</string>
 			<key>end</key>
 			<string>```</string>
@@ -76,12 +84,6 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>&lt;(?:[^&gt;\\]|\\.)*&gt;</string>
-			<key>name</key>
-			<string>string.html-tag.pageman</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>^\s*//.*$</string>
 			<key>name</key>
 			<string>comment.double-slash.c-comments.pageman</string>
@@ -96,7 +98,7 @@
 			<key>match</key>
 			<string>^\s*#+.*$</string>
 			<key>name</key>
-			<string>string.qouted.markdown-header.pageman</string>
+			<string>variable.other.markdown-header.pageman</string>
 		</dict>
 		<dict>
 			<key>match</key>

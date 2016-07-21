@@ -110,6 +110,18 @@
 			<key>name</key>
 			<string>constant.language.jekyll-header.pageman</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\{%(?:[^%\}\\]|\\.)*%\}</string>
+			<key>name</key>
+			<string>storage.type.liquid-g1.pageman</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\{\{(?:[^\}\}\\]|\\.)*\}\}</string>
+			<key>name</key>
+			<string>storage.type.liquid-g2.pageman</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>text.html.markdown.pageman</string>

@@ -2,7 +2,7 @@
 	"name": "pageman",
 	"displayName": "Pageman",
 	"description": "Pageman language syntax highlighting support for Code",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"publisher": "karyfoundation",
 	"engines": {
 		"vscode": "^0.10.1"

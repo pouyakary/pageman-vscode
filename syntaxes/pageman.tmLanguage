@@ -12,6 +12,14 @@
 	<array>
 		<dict>
 			<key>begin</key>
+			<string>&lt;!--</string>
+			<key>end</key>
+			<string>--&gt;</string>
+			<key>name</key>
+			<string>comment.html-comment.pageman</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>&lt;(?:[^&gt;\\]|\\.)*</string>
 			<key>end</key>
 			<string>&gt;</string>

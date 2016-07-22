@@ -6,6 +6,7 @@ Developed for internal use in the foundation but open to everyone for use so ple
 <img width="1095" alt="screen shot 2016-07-18 at 2 05 47 am" src="https://cloud.githubusercontent.com/assets/2157285/16903208/cc97586e-4c8c-11e6-8271-77b8d52d9660.png">
 
 ## What's new?
+- **1.2.3** &mdash; HTML comments added.
 - **1.2.2** &mdash; Multiline HTML tag fixed.
 - **1.2.1** &mdash; Jekyll's liquid language grammar added.
 
